@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint ./src/**",
     "lint:fix": "npx eslint ./src/** --fix",
+    "build":"npx tsc",
     "start": "tsx watch src/index.ts"
   },
   "repository": {
