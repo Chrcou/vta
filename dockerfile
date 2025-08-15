@@ -39,7 +39,7 @@ RUN apt-get update && apt-get install -y ffmpeg \
 # Copiez le reste de votre application
 # Cette couche sera invalidée uniquement si le contenu de votre dossier change.
 COPY . .
-
+RUN npm run build
 # Exposez le port sur lequel votre application écoute (si applicable)
 # EXPOSE 3000
 
