@@ -18,7 +18,7 @@ COPY . .
 
 # Si votre application Node.js nécessite une étape de "build" (ex: transpilation TypeScript, bundling Webpack),
 # décommentez la ligne suivante et ajustez-la
-# RUN npm run build
+RUN npm run build
 
 # --- Étape 2 : Image finale avec FFmpeg et l'application ---
 # Utilise la même image de base Node.js pour assurer la cohérence et avoir Node.js pré-installé
